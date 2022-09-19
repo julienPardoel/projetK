@@ -1,0 +1,14 @@
+.nav {
+  ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    font-size: 30px;
+    .navlink {
+      text-decoration: none;
+      color: #daa520;
+      text-shadow: black 1px 1px 3px;
+    }
+  }
+}
