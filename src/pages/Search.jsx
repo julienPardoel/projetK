@@ -1,11 +1,15 @@
 import React from "react";
 import Nav from "./../components/Nav";
+import Cube from "./../components/Cube";
 
 const Search = () => {
   return (
     <div className="search">
       <Nav />
-      <h2>Search</h2>
+      <div id="search-body">
+        <Cube />
+        <h2>Search</h2>
+      </div>
     </div>
   );
 };
